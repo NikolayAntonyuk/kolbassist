@@ -1,7 +1,9 @@
 {
+    "model": "claude-haiku-4-5-20251001",
     "env": {
         "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1",
-        "MAX_THINKING_TOKENS": "200000",
-        "DISABLE_PROMPT_CACHING": "1"
+        "MAX_THINKING_TOKENS": "1024",
+        "DISABLE_NON_ESSENTIAL_MODEL_CALLS": "1",
+        "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "60"
     }
 }
