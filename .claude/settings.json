@@ -1,7 +1,7 @@
 {
     "env": {
         "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1",
-        "MAX_THINKING_TOKENS": "10000",
+        "MAX_THINKING_TOKENS": "200000",
         "DISABLE_PROMPT_CACHING": "1"
     }
 }
